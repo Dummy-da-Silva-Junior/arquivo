@@ -8,9 +8,9 @@ vet=[]
 
 for i in range(0,x):
   aux=input()
-  x.append(aux)
+  vet.append(aux)
 
-x.sort(key=func)
+vet.sort(key=func)
 
-for s in x:
+for s in vet:
   print(s)
